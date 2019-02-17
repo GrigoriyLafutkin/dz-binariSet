@@ -98,7 +98,7 @@ int main()
 	std::cout << "A = ";
 	std::cin >> A;
 	std::vector<bool> vec = SortBinariFunc(R);
-	for (size_t i = 0; i < vec.size() ; i += A.size())
+	for (size_t i = 0; i < vec.size(); i += A.size())
 	{
 		int k = i;
 		for (size_t j = 0; j < A.size(); ++j)
